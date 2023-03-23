@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
     # Connect to Camera
     logging.info('Connecting to camera...')
-    cam = RealSenseCamera(device_id=830112070066)
+    cam = RealSenseCamera(device_id=147122077974)
     cam.connect()
     cam_data = CameraData(include_depth=args.use_depth, include_rgb=args.use_rgb)
 
